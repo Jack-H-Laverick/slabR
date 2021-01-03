@@ -7,11 +7,11 @@
 
 [![](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![R build
-status](https://github.com/Jack-H-Laverick/nemomedusR/workflows/R-CMD-check/badge.svg)](https://github.com/Jack-H-Laverick/nemomedusR/actions)
+status](https://github.com/Jack-H-Laverick/slabR/workflows/R-CMD-check/badge.svg)](https://github.com/Jack-H-Laverick/slabR/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/Jack-H-Laverick/nemomedusR/branch/main/graph/badge.svg)](https://codecov.io/gh/Jack-H-Laverick/nemomedusR?branch=master)
-[![CodeFactor](https://www.codefactor.io/repository/github/Jack-H-Laverick/nemomedusR/badge)](https://www.codefactor.io/repository/github/Jack-H-Laverick/nemomedusR)
-[![](https://img.shields.io/github/last-commit/Jack-H-Laverick/nemomedusR.svg)](https://github.com/Jack-H-Laverick/nemomedusR/commits/master)
+coverage](https://codecov.io/gh/Jack-H-Laverick/slabR/branch/main/graph/badge.svg)](https://codecov.io/gh/Jack-H-Laverick/slabR?branch=main)
+[![CodeFactor](https://www.codefactor.io/repository/github/Jack-H-Laverick/slabR/badge)](https://www.codefactor.io/repository/github/Jack-H-Laverick/slabR)
+[![](https://img.shields.io/github/last-commit/Jack-H-Laverick/slabR.svg)](https://github.com/Jack-H-Laverick/slabR/commits/master)
 <!-- badges: end -->
 
 slabR is an R package for creating summary slabs from arrays according
