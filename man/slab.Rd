@@ -10,6 +10,8 @@ slab(array, scheme, fun = "weighted mean")
 \item{array}{A dataframe containing a summarised month from NEMO-MEDUSA model outputs.}
 
 \item{scheme}{A dataframe containing a summarised month from NEMO-MEDUSA model outputs.}
+
+\item{fun}{A dataframe containing a summarised month from NEMO-MEDUSA model outputs.}
 }
 \value{
 A dataframe containing a summarised month of NEMO-MEDUSA output, gaining a decade column, and dropping columns

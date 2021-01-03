@@ -47,7 +47,7 @@ scheme, multiple volumes can be summarised from an array, only visiting
 the pixels of interest, and without leaving the Rcpp loop. slabR plays
 nicely with pipes, using the array to be processed as the first
 argument. This allows a constant summary scheme to by applied with
-`map(list(arrays), slab, scheme)`.
+`purrr::map(list(arrays), slab, scheme)`.
 
 ## Installation
 

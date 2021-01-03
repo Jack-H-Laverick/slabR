@@ -3,4 +3,4 @@
 export(slab)
 exportPattern("@^[[:alpha:]]+\"")
 importFrom(Rcpp,evalCpp)
-useDynLib(nemomedusR)
+useDynLib(slabR)

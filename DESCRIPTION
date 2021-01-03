@@ -18,7 +18,7 @@ BugReports: https:github.com/Jack-H-Laverick/slabR/issues
 LinkingTo: Rcpp, RcppArmadillo
 Imports:
   Rcpp,
-  RcppArmadillo,
+  RcppArmadillo
 RoxygenNote: 7.1.1
 Suggests: 
     knitr,

@@ -35,7 +35,7 @@ slabR was built to summarise 3D ocean model output. Often the volumes of interes
 
 * Indexing the array directly from R to only handle useful values can be slow when working with many files over large (global) volumes.
 
-slabR performs common summary operations on an array by indexing and group membership. We refer to the combination of indices and groupings as a summary scheme when represented as a dataframe. By using a summary scheme, multiple volumes can be summarised from an array, only visiting the pixels of interest, and without leaving the Rcpp loop. slabR plays nicely with pipes, using the array to be processed as the first argument. This allows a constant summary scheme to by applied with  `map(list(arrays), slab, scheme)`.
+slabR performs common summary operations on an array by indexing and group membership. We refer to the combination of indices and groupings as a summary scheme when represented as a dataframe. By using a summary scheme, multiple volumes can be summarised from an array, only visiting the pixels of interest, and without leaving the Rcpp loop. slabR plays nicely with pipes, using the array to be processed as the first argument. This allows a constant summary scheme to by applied with  `purrr::map(list(arrays), slab, scheme)`.
 
 ## Installation
 

@@ -100,7 +100,7 @@
 <li><p>You could summarise across all depths before averaging spatially with optimised functions like <code>colmeans</code>, but this wastes time handling points outside of your target volume which need to be removed later.</p></li>
 <li><p>Indexing the array directly from R to only handle useful values can be slow when working with many files over large (global) volumes.</p></li>
 </ul>
-<p>slabR performs common summary operations on an array by indexing and group membership. We refer to the combination of indices and groupings as a summary scheme when represented as a dataframe. By using a summary scheme, multiple volumes can be summarised from an array, only visiting the pixels of interest, and without leaving the Rcpp loop. slabR plays nicely with pipes, using the array to be processed as the first argument. This allows a constant summary scheme to by applied with <code>map(list(arrays), slab, scheme)</code>.</p>
+<p>slabR performs common summary operations on an array by indexing and group membership. We refer to the combination of indices and groupings as a summary scheme when represented as a dataframe. By using a summary scheme, multiple volumes can be summarised from an array, only visiting the pixels of interest, and without leaving the Rcpp loop. slabR plays nicely with pipes, using the array to be processed as the first argument. This allows a constant summary scheme to by applied with <code><a href="https://purrr.tidyverse.org/reference/map.html">purrr::map(list(arrays), slab, scheme)</a></code>.</p>
 </div>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">

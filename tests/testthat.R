@@ -1,4 +1,4 @@
 library(testthat)
-library(nemomedusR)
+library(slabR)
 
-test_check("nemomedusR")
+test_check("slabR")
