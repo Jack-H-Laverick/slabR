@@ -14,7 +14,8 @@ reference:
   desc: Interface for accessing summary functions.
   contents:
   - slab
-
+  - array_w_mean
+  
 navbar:
   type: inverse
   left:
