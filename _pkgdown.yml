@@ -1,0 +1,32 @@
+home:
+  title: Summarise slabs from arrays in R
+  links:
+  - text: Ask a question about the package at
+    href: jacklaverick@ymail.com
+destination: docs
+url: https://jack-h-laverick.github.io/slabR/
+
+template:
+ path: "pkgdown"
+
+reference:
+- title: Wrapper
+  desc: Interface for accessing summary functions.
+  contents:
+  - slab
+
+navbar:
+  type: inverse
+  left:
+   - icon: fa-home
+     href: index.html
+
+  right:
+   - icon: fa-file-code-o
+     text: "Functions"
+     href: reference/index.html
+   - icon: fa-newspaper-o
+     text: "Change log"
+     href: news/index.html
+   - icon: fa-github fa-lg
+     href: https:github.com/Jack-H-Laverick/slabR
