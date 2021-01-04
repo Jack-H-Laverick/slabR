@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# slabR <a href='https://jack-h-laverick.github.io/slabR'><img src='github.gif' align="right" height="200" /></a>
+# slabR <a href='https://jack-h-laverick.github.io/slabR'><img src='README.gif' align="right" height="200" /></a>
 
 <!-- badges: start -->
 

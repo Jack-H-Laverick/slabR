@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# slabR <a href='https://jack-h-laverick.github.io/slabR'><img src='github.gif' align="right" height="200" /></a>
+# slabR <a href='https://jack-h-laverick.github.io/slabR'><img src='README.gif' align="right" height="200" /></a>
 
 <!-- badges: start -->
 `r badger::badge_lifecycle("experimental")`
