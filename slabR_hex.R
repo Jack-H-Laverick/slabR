@@ -1,15 +1,10 @@
 library(rayrender)
 library(tidyverse)
 
-
-# radius <- 0.5
-# radius <- 0
-# blend <- 0.5
-
- data.frame(radius = seq(0.1, 0.5, length.out = 30),
-            blend = seq(0.5, 0, length.out = 30),
-            still = 1:30) %>% 
-   .[1,] %>% 
+data.frame(radius = seq(0.1, 0.5, length.out = 30),
+           blend = seq(0.5, 0, length.out = 30),
+           still = 1:30) %>% 
+#   .[1,] %>% 
    pmap(function(radius, blend, still){
 
 tictoc::tic()
@@ -94,19 +89,20 @@ scene <- sphere(x = -1, y = -1, z = -1, material = glossy(color = "grey", gloss 
 
 ## GITHUB social
 render_scene(scene, lookfrom = c(8,8,8), parallel = T, sample_method = "stratified",
-             samples = 1500,min_variance = 0, backgroundhigh = '#ffffff', clamp_value = 10,
+             samples = 2000,min_variance = 0, backgroundhigh = '#ffffff', clamp_value = 10,
              width = 640, height = 640, filename = str_glue("./frames/{still}.640.png"))
 
 usethis::ui_done(str_glue("rendered frame {still}. {tictoc::tic()}"))
 
+gc()
 })
 
  
-gifski::gifski(glue::glue("./frames/{c(rep(1, 30), 2:29, rep(30, 30), 29:2)}.pr.png"), height = 200, width = 200, 
-               gif_file = "preview.gif", delay = 1/30)
+#gifski::gifski(glue::glue("./frames/{c(rep(1, 30), 2:29, rep(30, 30), 29:2)}.pr.png"), height = 200, width = 200, 
+#               gif_file = "preview.gif", delay = 1/30)
  
-gifski::gifski(glue::glue("./frames/{c(rep(1, 30), 2:29, rep(30, 30), 29:2)}.200.png"), height = 200, width = 200, 
-               gif_file = "README.gif", delay = 1/30)
+#gifski::gifski(glue::glue("./frames/{c(rep(1, 30), 2:29, rep(30, 30), 29:2)}.200.png"), height = 200, width = 200, 
+#               gif_file = "README.gif", delay = 1/30)
 
-gifski::gifski(glue::glue("./frames/{c(rep(1, 30), 2:29, rep(30, 30), 29:2)}.640.png"), height = 200, width = 200, 
+gifski::gifski(glue::glue("./frames/{c(rep(1, 30), 2:29, rep(30, 30), 29:2)}.640.png"), height = 640, width = 640, 
                gif_file = "github.gif", delay = 1/30)
