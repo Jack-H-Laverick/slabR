@@ -16,6 +16,7 @@ LazyData: true
 URL: https://jack-h-laverick.github.io/slabR/, https:github.com/Jack-H-Laverick/slabR
 BugReports: https:github.com/Jack-H-Laverick/slabR/issues
 LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp
 RoxygenNote: 7.1.1
 Suggests: 
     knitr,

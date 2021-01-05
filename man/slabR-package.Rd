@@ -4,11 +4,11 @@
 \name{slabR-package}
 \alias{slabR}
 \alias{slabR-package}
-\title{slabR: Summarise slabs from arrays in R}
+\title{slabR: Summarise Slabs from Arrays in R}
 \description{
 \if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
 
-A package for creating summary slabs from arrays according to a summary scheme. This is useful for ecosystem models which use a single value to represent volumes within a 3D grid. The different summaries are implemented in C++ using Rcpp for speed.
+Create summary slabs from arrays according to a summary scheme. This is useful for ecosystem models which use a single value to represent volumes within a 3D grid. The different summaries are implemented in C++ using Rcpp for speed.
 }
 \seealso{
 Useful links:
